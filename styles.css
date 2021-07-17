@@ -20,7 +20,7 @@
   .banner-btn{
   margin: auto;
   width: 60%;
-  padding: 10px;
+  padding: 2px;
     
   }
   .banner-btn a{
@@ -228,8 +228,6 @@
     
   }
 
-
-
   #spotify {
     margin-left: auto;
     margin-right: auto;
@@ -240,4 +238,29 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+
+
+
+  /* Officers Section Changes*/
+  #others {
+    background: #7cac7c;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* Contact US Section Changes*/
+  #contact {
+    background: #7cac7c;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
