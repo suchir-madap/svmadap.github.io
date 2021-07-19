@@ -21,7 +21,7 @@
   margin: auto;
   width: 60%;
   padding: 2px;
-    
+  text-align: center;  
   }
   .banner-btn a{
     text-align: center;
@@ -226,19 +226,15 @@
     
   }
 
-  #spotify {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  .social_media_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  #youtube {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  #podcasts {
+
   }
-
-
 
   /* Officers Section Changes*/
   #others {
@@ -261,4 +257,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #Instagram_posts {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
   }
