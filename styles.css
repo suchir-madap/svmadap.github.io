@@ -229,6 +229,8 @@
   #content-table {
     margin-right: auto;
     margin-left: auto;
+    border-collapse: separate;
+    border-spacing: 100px;
   }
 
   #podcast_heading {
