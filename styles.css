@@ -226,14 +226,15 @@
     
   }
 
-  .social_media_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #content-table {
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 6px;
   }
 
-  #podcasts {
-
+  #podcast_heading {
+    font-size: 35px;
+    color: green
   }
 
   /* Officers Section Changes*/

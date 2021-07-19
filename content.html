@@ -40,20 +40,25 @@
             </div>
         </div>
         <div id="content">
-        <table>
-         <caption>FLI Podcasts</caption>
+        <table id="content-table">
+         <caption id="podcast_heading"><b>FLI Podcasts</b></caption>
         <tr>
-          <div class="social_media_content">
-            <iframe src="https://open.spotify.com/embed/show/3N3RKLl7HJBStvRUTNmQzE?theme=0&amp;t=0" width="560" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" id="spotify_podcast"></iframe>
-        </tr>    
+          <div>
+            <td><iframe src="https://open.spotify.com/embed/show/3N3RKLl7HJBStvRUTNmQzE?theme=0&amp;t=0" width="560" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" id="spotify_podcast"></iframe></td>
           </div>
-            <div class="social_media_content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4Vccy2TnHaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="youtube_podcast"></iframe>
-            </div>
+
+          <div id="insta">
+            <td rowspan="2"><iframe src="https://www.instagram.com/p/CRT56NhLNVp/embed" width="400" height="650" frameborder="0" scrolling="no" allowtransparency="true" id="Instagram_posts"></iframe></td>
           </div>
-            <div id="insta">
-                <iframe src="https://www.instagram.com/p/CRT56NhLNVp/embed" width="300" height="350" frameborder="0" scrolling="no" allowtransparency="true" id="Instagram_posts"></iframe>
-            </div>
+        </tr>
+
+        <tr>
+          <div>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/4Vccy2TnHaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="youtube_podcast"></iframe></tr>
+          </div>
+        </tr>
+        </div>
+        
         
         </table>
     </section>
