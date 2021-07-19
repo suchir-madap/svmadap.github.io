@@ -210,12 +210,12 @@
    /*Home Page*/
    #budgetimg {
     float:right;
-    margin-right: 60%;
+    margin-right: 30%;
     margin-bottom: 10%;
     width: 550px;
    }
 
-
+  
 
 
   /*Content Section Changes*/
@@ -247,6 +247,43 @@
     align-items: center;
   }
 
+  #officersec1 {
+    background: #E6FFE7;
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leader h1 {
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #A88D2E;
+    letter-spacing: 0.1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+
+  .leader h3 {
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 1%;
+  }
+
+  .leader img {
+    width: 261px;
+    height: 261px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+  }
 
   /* Contact US Section Changes*/
   #contact {
