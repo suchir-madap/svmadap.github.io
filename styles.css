@@ -283,6 +283,52 @@
     
   }
 
+  /*Join Us Page*/
+  #sec2 {
+    background: #d6ffd7;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .member {
+    margin-left: 10%;
+    }
+    
+    .light1 h1 {
+      font-family: 'Patua One', cursive;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 37px;
+      letter-spacing: 1.2 em;
+      margin-bottom: 5%;
+    }
+    
+    .light1 p {
+      margin-right: 50%;
+      margin-bottom: 3%;
+    }
+  .light1 {
+      margin-left: 10%;
+    }
+      
+    .light1 h1 {
+        font-family: 'Patua One', cursive;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 37px;
+        letter-spacing: 1.2 em;
+        margin-bottom: 5%;
+    }
+      
+  .light1 p {
+        margin-right: 50%;
+        margin-bottom: 3%;
+  }
+
+
   /* Contact US Section Changes*/
   #contact {
     background: #7cac7c;
